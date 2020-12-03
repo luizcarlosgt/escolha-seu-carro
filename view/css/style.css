@@ -1,0 +1,46 @@
+#carro img{
+	border: 2px solid black;
+}
+
+#infos{
+	border: 2px solid black;
+	background-color: rgb(200,200,240);
+	width: 350px;
+}
+
+button{
+	border: 2px solid black;
+	width: 100px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+@media (max-width: 780px) {
+	#infos{
+		width: 220px;
+		margin-top: 0px;
+		background-color: DodgerBlue;
+		color: white;
+	}
+	h1{
+		visibility: hidden;
+		height: 0px;
+		margin-bottom: 0px;
+	}
+
+	#carro img{
+		width: 220px;
+		height: 220px;
+
+	}
+
+	button{
+		margin-top: 10px;
+		height: 30px;
+		background-color: DodgerBlue;
+		color: white;
+	}
+	}
+}
